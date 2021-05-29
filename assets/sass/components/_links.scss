@@ -1,0 +1,27 @@
+.link{
+    text-decoration: none;
+    font-family: $font-roboto;
+    &--primary {
+        color: $ruddy-pink
+    }
+    &--secundary {
+        color:$raisin-black
+    }
+    &--light {
+        color: $light-gray;
+
+    }
+    &--dark {
+        color:$eeerie-black;
+    }
+    &:hover {
+        color: $raisin-black;
+    }
+    &:active {
+        color: $platinum;
+    }
+    &::before{
+        content: '@';
+    }
+}
+    

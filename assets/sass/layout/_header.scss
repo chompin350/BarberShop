@@ -1,0 +1,14 @@
+//This file is for create your style with relation on space of header
+
+.header{
+    background-color: $eeerie-black;
+
+    img{
+        width: 4.898rem;
+
+        @include media(xs){
+            width: 5.063;
+        }
+
+    }
+}

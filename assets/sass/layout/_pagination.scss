@@ -1,0 +1,13 @@
+//This file is for create your style with relation on space of pagination
+
+.pagination{
+    background-color: $platinum;
+    padding: 2em 0;
+    justify-content: center;
+}
+
+.page-item{
+    .active{
+        background-color: $nickel;
+    }
+}

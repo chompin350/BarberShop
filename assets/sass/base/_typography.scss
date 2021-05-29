@@ -1,0 +1,21 @@
+//typologia del proyecto
+
+body{
+    font-family: $font-roboto;
+    font-size: $font-medium;
+    font-weight: $font-light;
+    color: $raisin-black;
+    text-align: center;
+}
+
+h1{
+    font-family: $font-playfair;
+    font-size: $font-xx-large;
+    font-weight: $font-black;
+    font-style: italic;
+    width: 50%;
+    @include media(xs){
+        font-size: $font-40;
+        width: 80%;
+    }
+}

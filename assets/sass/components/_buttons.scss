@@ -1,0 +1,11 @@
+//This file you will create your style for buttons inside of the project
+
+.button_medium{
+    @include boton_personalizado(20px,200px,30px);
+
+}
+
+.button_small{
+    @include boton_personalizado(20px,150px,30px);
+
+}
