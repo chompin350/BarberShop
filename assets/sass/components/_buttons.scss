@@ -1,11 +1,38 @@
-//This file you will create your style for buttons inside of the project
-
-.button_medium{
-    @include boton_personalizado(20px,200px,30px);
-
-}
-
-.button_small{
-    @include boton_personalizado(20px,150px,30px);
-
+/*SE CREA CLASE BUTTON*/
+.button {
+    border-radius: 50rem;
+    background-color: $nickel;
+    border: 1px solid $nickel;
+    color: $white;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    font-family: $font-roboto;
+    font-size: $font-medium;
+    padding: 0.7rem;
+    margin-right: 2rem;
+    /*SE DEFINE TAMAÑO MEDIO*/
+    &--medium{
+        padding: 1rem;
+    }
+    /*SE DEFINE TAMAÑO PEQUEÑO*/
+    &--small{
+        padding: 0.8rem;
+    }
+    /*COMPORTAMIENTO SOBRE*/
+    &:hover{
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+    }
+    /*COMPORTAMIENTO AL SER EL FOCO*/
+    &:focus{
+        background-color: $nickel;
+        border: 2px solid $light-gray;
+    }
+    
+    /*CAMBIOS AL TIPO CECULAR*/
+    @media (max-width: 576px) { 
+        font-size: $font-14;
+        margin-right: 0;
+    }
 }

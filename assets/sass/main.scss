@@ -1,4 +1,4 @@
-/* MANIFIESO */
+/* CARGA MANIFIESTO */
 /* abstracts */
 @import "abstracts/variables";
 @import "abstracts/functions";
@@ -19,15 +19,19 @@
 @import "layout/footer";
 @import "layout/main";
 @import "layout/contacto";
+@import "layout/descripcion";
+
 /* components */
 @import "components/buttons";
-@import "components/inputs";
+@import "components/inputs"; //VACIO
 @import "components/links";
-/* pages */
-/* @import 'pages/home';
-@import 'pages/contact'; */
-/* themes */
-/* @import 'themes/theme';
-@import 'themes/admin'; */
+@import "components/thumbnail"; 
 
-/*# sourceMappingURL=main.css.map */
+/* pages */
+// @import 'pages/home'; 
+// @import 'pages/contact'; 
+
+/* themes */
+// @import 'themes/theme'; 
+// @import 'themes/admin'; 
+

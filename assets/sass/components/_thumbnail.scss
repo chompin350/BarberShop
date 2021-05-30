@@ -1,0 +1,19 @@
+/*CLASE TRUMBNAIL PARA IMAGEN*/
+.custom-thumbnail{
+    border: 1px solid $line_borde;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    /*DEFINE TAMANO NORMAL*/
+    &--normal{
+        max-width: 142px;
+    }
+    /*DEFINE TAMANO PEQUEÑO*/
+    &--small{
+        max-width: 133px;
+    }
+    /*DEFINE MAXIMO DE TAMAÑO  PARA MOVIL*/
+    @media (max-width: 576px) { 
+        max-width: 133px;
+    }
+}

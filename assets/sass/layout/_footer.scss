@@ -1,4 +1,4 @@
-//This file is for create your style with relation on space of footer
+/*CLASE PARA DEFINIR PIE DE PAGINA Y SU IMAGEN*/
 
 footer{
 
@@ -7,7 +7,10 @@ footer{
     text-align: center;
 
     img{
-        width: 150px;
+        width: 122px;
+        @media (max-width: 576px) { 
+            width: 81px;
+        }
     }
 }
 

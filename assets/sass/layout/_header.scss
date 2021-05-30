@@ -1,14 +1,12 @@
-//This file is for create your style with relation on space of header
-
+/*CLASE PARA EL HEADER*/
+// Color de fondo del cabecera
 .header{
     background-color: $eeerie-black;
-
+    // tamaño de imagen y cambia para movil
     img{
         width: 4.898rem;
-
-        @include media(xs){
-            width: 5.063;
+        @media (max-width: 576px) { 
+            width: 5.063rem;
         }
-
     }
 }

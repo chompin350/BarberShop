@@ -1,5 +1,5 @@
 //typologia del proyecto
-
+/*CARACTERISTICAS  ASISGNADAS AL BODY*/
 body{
     font-family: $font-roboto;
     font-size: $font-medium;
@@ -8,14 +8,42 @@ body{
     text-align: center;
 }
 
+/*SE DEFINE TITULO*/
 h1{
     font-family: $font-playfair;
     font-size: $font-xx-large;
     font-weight: $font-black;
     font-style: italic;
-    width: 50%;
-    @include media(xs){
+    width: 68%;
+    @media (max-width: 576px) { 
         font-size: $font-40;
         width: 80%;
-    }
+     }
 }
+
+/*SE DFINE H6*/
+h6{
+    font-family: $font-playfair;
+    font-size: $font-large;
+    font-weight: $font-regular;
+}
+
+/*SE DEFINE PARRAFO*/
+p{
+    line-height: 2.5rem;
+    font-family: $font-roboto;
+    font-size: $font-medium;
+    font-weight: $font-light;
+    color: $raisin-black;
+    padding-bottom: 1rem;
+}
+
+// NAOMI
+/*SE DFINE H3*/
+h3{
+    font-family: $font-playfair;
+    font-size: $font-x-large;
+    font-weight: $font-black;
+    font-style: italic;
+}
+

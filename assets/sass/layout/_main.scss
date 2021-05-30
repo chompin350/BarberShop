@@ -1,16 +1,17 @@
-//This file is for create your style with relation on space of main
+/*CLASES PARA AL SECCION MAIN*/
 
 .main{
 
     background-image: url("../images/post-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    // height: 100vh;
     justify-content: center;
     color: white;
     height: 50rem;
     display: flex;
     width: 100%;
+    position: relative;
 
 
     &__contenedor{
@@ -29,14 +30,18 @@
         }
     }
 
-    @include media(xs){
+    i{
+        position: absolute;
+        font-size: 40px;
+        bottom: 50px;
+
+    }
+
+    @media (max-width: 576px) { 
+        
         height: 640px;
     }
 
-    i{
-        font-size: 40px;
-        justify-content: center;
-
-    }
 }
+
 

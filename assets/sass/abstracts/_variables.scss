@@ -10,14 +10,10 @@ $spanich-pink: #ecbcba !default;
 $eeerie-black: #121619 !default;
 $raisin-black:#222323 !default;
 $nickel: #6c6e70 !default;
-
-
-// variables de punto de quiebre
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xlg: 1200px;
-
+// COLORS NOT INCLUDED
+$line_borde:#707071;
+$link_active:#dE8684;
+$borde_pag: #ddd;
 
 // FONT SIZE
 $font-xx-large:70px;
@@ -25,10 +21,11 @@ $font-x-large:30px;
 $font-large: 18px;
 $font-medium: 16px;
 $font-mall: 12px;
-// NO INCLUIDA
+// FONT NOT INCLUDED
 $font-40: 40px;
+$font-14: 14px;
 
-// FONT FAMILI
+// FONT FAMILY
 $font-roboto: 'Roboto', sans-serif;
 $font-playfair: 'Playfair Display', serif;
 

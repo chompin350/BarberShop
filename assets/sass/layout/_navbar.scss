@@ -1,1 +1,29 @@
-//This file is for create your style with relation on space of navbar
+/*CLASES PARA MANIPULAR LA BARRA DE NAVEGACION*/
+.custom-nav {
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: $eeerie_black;
+    font-family: $font-roboto;
+    font-size: $font-medium;
+    font-weight: normal;
+    &__item {
+        color: $white;
+        &__link {
+            display: block;
+            padding: 0.5rem 1rem;
+            margin-left: auto;
+            color: $white;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+                color: $link_active;
+            }
+        }
+    }
+   &--activo{
+        color: $link_active;
+   } 
+    
+}

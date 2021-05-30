@@ -1,27 +1,31 @@
+/*NUEVA CLASE LINK */
 .link{
     text-decoration: none;
     font-family: $font-roboto;
+    /*SE DEFINE COLOR PRIMARIO*/
     &--primary {
         color: $ruddy-pink
     }
+    /*SE DEFINE COLOR SECUNDARIO*/
     &--secundary {
         color:$raisin-black
     }
+    /*SE DEFINE COLOR LIGHT*/
     &--light {
         color: $light-gray;
-
     }
+    /*SE DEFINE COLOR DARK*/
     &--dark {
         color:$eeerie-black;
     }
+    /*COMPORTAMIENTO SI PASA SOBRE*/
     &:hover {
-        color: $raisin-black;
+        color: $eeerie-black;
     }
+    /*COMPORTAMIENTO SI ES ACTIVO*/
     &:active {
-        color: $platinum;
+        color: $light-gray;
     }
-    &::before{
-        content: '@';
-    }
+
 }
     
